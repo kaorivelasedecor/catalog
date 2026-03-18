@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="py-8">
     <v-row>
       <v-col
         v-for="product in products"
