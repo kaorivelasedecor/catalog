@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar flat>
+  <v-app-bar app flat>
     <v-toolbar-title>
       Kaori Velas e Decor
     </v-toolbar-title>

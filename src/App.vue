@@ -1,7 +1,10 @@
 <template>
   <v-app>
     <AppHeader />
-    <Home />
+
+    <v-main>
+      <Home />
+    </v-main>
   </v-app>
 </template>
 
