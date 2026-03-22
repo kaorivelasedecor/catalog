@@ -22,7 +22,14 @@
 
     <!-- MODAL -->
     <v-dialog v-model="dialog" max-width="500">
-      <v-card>
+      <v-card class="position-relative">
+        <!-- BOTÃO X -->
+        <v-btn
+          icon="mdi-close"
+          variant="text"
+          class="close-btn"
+          @click="dialog = false"
+        />
 
         <v-img
           :src="`${baseUrl + product.image}`"
