@@ -7,7 +7,7 @@
       @click="dialog = true"
       style="cursor: pointer"
     >
-      <v-img :src="product.thumbnail" height="400px" cover />
+      <v-img :src="product.thumbnail" height="300px" contain />
 
       <v-card-item>
         <v-card-title class="text-h6">
@@ -28,7 +28,7 @@
           :src="product.image"
           :lazy-src="product.thumbnail"
           height="500px"
-          cover
+          contain
           class="transition-image"
         />
 

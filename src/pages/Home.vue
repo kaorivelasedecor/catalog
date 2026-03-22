@@ -1,5 +1,13 @@
 <template>
-  <v-container class="py-4">
+  <div class="text-center py-6 bg-white w-100">
+    <img
+      src="/images/logo-kaori-preto.jpg"
+      alt="Kaori"
+      style="height: 250px"
+    />
+  </div>
+
+  <div class="sticky-filter">
     <v-row justify="center" class="mb-4">
       <v-btn
         v-for="cat in categories"
@@ -12,15 +20,15 @@
         {{ cat }}
       </v-btn>
     </v-row>
-  </v-container>
+  </div>
 
   <v-container class="py-8">
   <v-row>
     <v-col
       v-for="product in filteredProducts"
       :key="product.id"
-      cols="12"
-      sm="6"
+      cols="6"
+      sm="4"
       md="3"
     >
       <ProductCard :product="product" />
@@ -57,3 +65,14 @@ const filteredProducts = computed(() => {
   )
 })
 </script>
+
+<style scoped>
+  .sticky-filter {
+    position: sticky;
+    background: black;
+    top: 0;
+    z-index: 10;
+    padding-top: 32px;
+    padding-bottom: 8px;
+  }
+</style>
