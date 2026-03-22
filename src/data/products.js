@@ -2,7 +2,7 @@ export const products = [
   {
     "id": 1,
     "category": "Edição Limitada",
-    "name": "Vela Ovo de Páscoa 100g",
+    "name": "Vela Ovo de Páscoa 100g cada",
     "price": 45.0,
     "thumbnail": "/images/vela-ovo.jpg",
     "image": "/images/vela-ovo.jpg",
@@ -34,6 +34,15 @@ export const products = [
     "thumbnail": "/images/difusor-100.jpg",
     "image": "/images/difusor-100.jpg",
     "description": "Em frasco de vidro, ideal para quem prefere uma perfumação mais leve e delicada. Perfeito para ambientes menores, unindo fragrância e decoração de forma sutil."
+  },
+  {
+    "id": 26,
+    "category": "Difusores",
+    "name": "Difusor de Varetas 125ml",
+    "price": 24.0,
+    "thumbnail": "/images/difusor-pet.jpg",
+    "image": "/images/difusor-pet.jpg",
+    "description": "Frasco em PET, leve e funcional. Ideal para manter o ambiente perfumado no dia a dia com praticidade e bom custo-benefício."
   },
   {
     "id": 5,
@@ -160,5 +169,122 @@ export const products = [
     "thumbnail": "/images/vela-pianezza3.jpg",
     "image": "/images/vela-pianezza3.jpg",
     "description": "Em recipiente de vidro com tampa metálica. Com design delicado e sofisticado, perfuma e decora com elegância, trazendo aconchego com presença marcante ao ambiente."
-  }
+  },
+  {
+    "id": 19,
+    "category": "Ediçoes Especiais",
+    "name": "Home Spray Perfume das Fadas 200ml",
+    "price": 29.9,
+    "thumbnail": "/images/home-fadas.jpg",
+    "image": "/images/home-fadas.jpg",
+    "description": "Uma fragrância encantada com toque perolado, criada para transformar o ambiente com leveza e brilho mágico. Agite e descubra um espetáculo sensorial a cada borrifada."
+  },
+  {
+    "id": 20,
+    "category": "Ediçoes Especiais",
+    "name": "Mini Bubble 40g cada",
+    "price": 10.0,
+    "thumbnail": "/images/mini-bubble.jpg",
+    "image": "/images/mini-bubble.jpg",
+    "description": "Coloridas, delicadas e cheias de charme. Além de decorativas, são pequenos mimos para transformar qualquer cantinho com cor e personalidade."
+  },
+  {
+    "id": 21,
+    "category": "Ediçoes Especiais",
+    "name": "All Black 100g",
+    "price": 40.0,
+    "thumbnail": "/images/all-black.jpg",
+    "image": "/images/all-black.jpg",
+    "description": "Recipiente de vidro com tampa de metal, cera preta e um delicado toque de glitter. Sofisticada e marcante, une fragrância, estilo e personalidade. Disponível com detalhes em prata ou dourado (consulte disponibilidade)."
+  },
+  {
+    "id": 22,
+    "category": "Ediçoes Especiais",
+    "name": "Vela Nossa Senhora 170g",
+    "price": 50.0,
+    "thumbnail": "/images/nossa-senhora.jpg",
+    "image": "/images/nossa-senhora.jpg",
+    "description": "Recipiente de vidro com parafina em gel e fragrância suave, desenvolvida para manter a transparência e valorizar a imagem de Nossa Senhora Aparecida."
+  },
+  {
+    "id": 23,
+    "category": "Ediçoes Especiais",
+    "name": "Wax Melts 20g",
+    "price": 14.9,
+    "thumbnail": "/images/wax-melts.jpg",
+    "image": "/images/wax-melts.jpg",
+    "description": "Pequenas peças de cera que aromatizam o ambiente de forma prática. Sem pavio, basta colocar no difusor elétrico, ou rechaud de cerâmica e a fragrância se espalha em minutos."
+  },
+  {
+    "id": 24,
+    "category": "Linha Literária",
+    "name": "A Vela Secreta",
+    "price": 70.0,
+    "thumbnail": "/images/hp.jpg",
+    "image": "/images/hp.jpg",
+    "description": "Descubra o poder da magia em cada chama. Com a fragrância à sua escolha, essa vela transforma o ambiente em pura magia."
+  },
+  {
+    "id": 25,
+    "category": "Linha Literária",
+    "name": "Vela Velaris",
+    "price": 70.0,
+    "thumbnail": "/images/vela-velaris.jpg",
+    "image": "/images/vela-velaris.jpg",
+    "description": "Criada exclusivamente para a linha Velaris, esta fragrância única mistura notas doces e misteriosas, transformando essa vela em uma experiência aromática inesquecível."
+  },
+  {
+    "id": 27,
+    "category": "Linha Literária",
+    "name": "Linha Velaris",
+    "price": 123.9,
+    "thumbnail": "/images/velaris.jpg",
+    "image": "/images/velaris.jpg",
+    "description": "Inspirada no universo de ACOTAR, essa coleção conta com Home Spray 200ml, Difusor de Varetas Pet 125ml e Vela Aromática personalizada que traduzem a magia, a força e o encanto da Cidade das Estrelas."
+  },
+  {
+    "id": 28,
+    "category": "Extras",
+    "name": "Vidro Fósforos",
+    "price": 9.9,
+    "thumbnail": "/images/vidro-fosforo.jpg",
+    "image": "/images/vidro-fosforo.jpg",
+    "description": "Descubra o poder da magia em cada chama. Com a fragrância à sua escolha, essa vela transforma o ambiente em pura magia."
+  },
+  {
+    "id": 29,
+    "category": "Extras",
+    "name": "Acendedor de Plasma",
+    "price": 19.9,
+    "thumbnail": "/images/acendedor-plasma.jpg",
+    "image": "/images/acendedor-plasma.jpg",
+    "description": "Acendedor elétrico de plasma, ideal para velas. Sem chama e sem gás, mais prático e seguro para o uso diário. Haste flexível para facilitar o acesso ao pavio. Recarregável via USB."
+  },
+  {
+    "id": 30,
+    "category": "Extras",
+    "name": "Difusor Elétrico Bivolt",
+    "price": 55.9,
+    "thumbnail": "/images/difusor-eletrico.jpg",
+    "image": "/images/difusor-eletrico.jpg",
+    "description": "Com maior capacidade e botão liga/desliga, para mais praticidade e segurança no manuseio da cera quente."
+  },
+  {
+    "id": 31,
+    "category": "Extras",
+    "name": "Kit Acessórios Vela - Preto",
+    "price": 119.9,
+    "thumbnail": "/images/kit-vela-preto.jpg",
+    "image": "/images/kit-vela-preto.jpg",
+    "description": "A tesoura auxilia no corte do pavio antes de acender. O sino abafador permite apagar a chama com mais segurança, evitando fumaça. O centralizador ajuda a manter o pavio alinhado durante a queima. Material: Aço Inoxidável."
+  },
+  {
+    "id": 32,
+    "category": "Extras",
+    "name": "Vidro Fósforos",
+    "price": 9.9,
+    "thumbnail": "/images/kit-vela-rose.jpg",
+    "image": "/images/kit-vela-rose.jpg",
+    "description": "Descubra o poder da magia em cada chama. Com a fragrância à sua escolha, essa vela transforma o ambiente em pura magia."
+  },
 ]

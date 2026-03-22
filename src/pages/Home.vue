@@ -42,6 +42,9 @@ const categories = [
   'Home Spray',
   'Difusores',
   'Velas',
+  'Edições Especiais',
+  'Linha Literária',
+  'Extras',
 ]
 
 const filteredProducts = computed(() => {
