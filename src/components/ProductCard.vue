@@ -10,7 +10,7 @@
       <v-img :src="`${baseUrl + product.thumbnail}`" height="300px" contain />
 
       <v-card-item>
-        <v-card-title class="text-h6">
+        <v-card-title class="product-title text-body-2 text-md-h6">
           {{ product.name }}
         </v-card-title>
 
@@ -71,3 +71,13 @@ function buyOnWhatsApp() {
   window.open(url, '_blank')
 }
 </script>
+
+<style scoped>
+.product-title {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  display: block !important;
+  line-height: 1.2;
+}
+</style>
