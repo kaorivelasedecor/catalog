@@ -7,7 +7,7 @@
       @click="dialog = true"
       style="cursor: pointer"
     >
-      <v-img :src="product.image" height="350px" cover />
+      <v-img :src="product.thumbnail" height="400px" cover />
 
       <v-card-item>
         <v-card-title class="text-h6">
@@ -66,7 +66,7 @@ const props = defineProps({
 
 function buyOnWhatsApp() {
   const message = `Olá! Tenho interesse no produto: ${props.product.name}`
-  const url = `https://wa.me/SEUNUMERO?text=${encodeURIComponent(message)}`
+  const url = `https://wa.me/5511984380478?text=${encodeURIComponent(message)}`
   window.open(url, '_blank')
 }
 </script>
