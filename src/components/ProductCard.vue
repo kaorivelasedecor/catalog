@@ -7,7 +7,7 @@
       @click="dialog = true"
       style="cursor: pointer"
     >
-      <v-img :src="product.thumbnail" height="300px" contain />
+      <v-img :src="`${baseUrl + product.thumbnail}`" height="300px" contain />
 
       <v-card-item>
         <v-card-title class="text-h6">
@@ -25,7 +25,7 @@
       <v-card>
 
         <v-img
-          :src="product.image"
+          :src="`${baseUrl + product.image}`"
           :lazy-src="product.thumbnail"
           height="500px"
           contain
@@ -57,6 +57,7 @@
 
 <script setup>
 import { ref } from 'vue'
+const baseUrl = import.meta.env.BASE_URL
 
 const dialog = ref(false)
 
