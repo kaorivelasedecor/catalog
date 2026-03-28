@@ -34,7 +34,7 @@
         <v-img
           :src="`${baseUrl + product.image}`"
           :lazy-src="product.thumbnail"
-          height="350px"
+          height="325px"
           contain
           class="transition-image"
         />
