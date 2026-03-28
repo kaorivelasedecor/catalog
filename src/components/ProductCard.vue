@@ -15,7 +15,7 @@
         </v-card-title>
 
         <v-card-subtitle>
-          R$ {{ product.price.toFixed(2) }}
+          R$ {{ product.price.toFixed(2).replace(".", ",") }}
         </v-card-subtitle>
       </v-card-item>
     </v-card>
@@ -34,7 +34,7 @@
         <v-img
           :src="`${baseUrl + product.image}`"
           :lazy-src="product.thumbnail"
-          height="500px"
+          height="400px"
           contain
           class="transition-image"
         />
@@ -49,7 +49,7 @@
 
         <v-card-actions class="justify-space-between">
           <span class="text-h6">
-            R$ {{ product.price.toFixed(2) }}
+            R$ {{ product.price.toFixed(2).replace(".", ",") }}
           </span>
 
           <v-btn color="green" @click="buyOnWhatsApp">
@@ -74,7 +74,7 @@ const props = defineProps({
 
 function buyOnWhatsApp() {
   const message = `Olá! Tenho interesse no produto: ${props.product.name}`
-  const url = `https://wa.me/5511984380478?text=${encodeURIComponent(message)}`
+  const url = `https://wa.me/5511948161463?text=${encodeURIComponent(message)}`
   window.open(url, '_blank')
 }
 </script>

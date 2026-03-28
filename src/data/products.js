@@ -172,7 +172,7 @@ export const products = [
   },
   {
     "id": 19,
-    "category": "Ediçoes Especiais",
+    "category": "Edições Especiais",
     "name": "Home Spray Perfume das Fadas 200ml",
     "price": 29.9,
     "thumbnail": "/images/home-fadas.jpg",
@@ -181,7 +181,7 @@ export const products = [
   },
   {
     "id": 20,
-    "category": "Ediçoes Especiais",
+    "category": "Edições Especiais",
     "name": "Mini Bubble 40g cada",
     "price": 10.0,
     "thumbnail": "/images/mini-bubble.jpg",
@@ -190,7 +190,7 @@ export const products = [
   },
   {
     "id": 21,
-    "category": "Ediçoes Especiais",
+    "category": "Edições Especiais",
     "name": "All Black 100g",
     "price": 40.0,
     "thumbnail": "/images/all-black.jpg",
@@ -199,7 +199,7 @@ export const products = [
   },
   {
     "id": 22,
-    "category": "Ediçoes Especiais",
+    "category": "Edições Especiais",
     "name": "Vela Nossa Senhora 170g",
     "price": 50.0,
     "thumbnail": "/images/nossa-senhora.jpg",
@@ -208,7 +208,7 @@ export const products = [
   },
   {
     "id": 23,
-    "category": "Ediçoes Especiais",
+    "category": "Edições Especiais",
     "name": "Wax Melts 20g",
     "price": 14.9,
     "thumbnail": "/images/wax-melts.jpg",
